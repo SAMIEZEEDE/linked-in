@@ -1,0 +1,152 @@
+{
+    "050e0327-0513-a941-a70d-46b7dbdefa86": {
+        "paletteKey": "FlexLayoutCol",
+        "commentid": null,
+        "designerReference": [
+            {
+                "_key": "componentLabel",
+                "_value": "Column",
+                "_type": "kv",
+                "_attrDef": "p",
+                "_useAsLabel": true
+            },
+            {
+                "_key": "style",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "class",
+                "_value": "",
+                "_type": "dav",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "fxFlex",
+                "_value": "100",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "fxLayoutGap",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "wrap",
+                "_value": "wrap",
+                "_type": "a",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "layoutAlign",
+                "_value": "start",
+                "_type": "a",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "pLayoutAlign",
+                "_value": "stretch",
+                "_type": "a",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[fxShow]",
+                "_value": "true",
+                "_type": "kv",
+                "_attrDef": "p"
+            }
+        ],
+        "8a564867-4679-2d0e-55a1-b54ee9674fd2": {
+            "paletteKey": "ad-card",
+            "parentEditorKey": "050e0327-0513-a941-a70d-46b7dbdefa86",
+            "isAdvancedComponent": true,
+            "commentid": null,
+            "designerReference": [
+                {
+                    "_key": "componentLabel",
+                    "_value": "Card",
+                    "_type": "kv",
+                    "_attrDef": "p",
+                    "_useAsLabel": true
+                },
+                {
+                    "_key": "style",
+                    "_value": "",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                },
+                {
+                    "_key": "class",
+                    "_value": "",
+                    "_type": "dav",
+                    "_attrDef": "p"
+                },
+                {
+                    "_key": "tabindex",
+                    "_value": "",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                }
+            ],
+            "1ed0f490-de7f-2ac8-f9c7-cfaececc99fc": {
+                "paletteKey": "ng-card-image",
+                "parentEditorKey": "8a564867-4679-2d0e-55a1-b54ee9674fd2",
+                "isAdvancedChildComponent": true,
+                "commentid": null,
+                "designerReference": [
+                    {
+                        "_key": "style",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "class",
+                        "_value": "",
+                        "_type": "dav",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "alt",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "imgSrc",
+                        "_value": "/Web/images/aya.png",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "[src]",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "imgSecure",
+                        "_value": "",
+                        "_type": "a",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "[collectionName]",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "[imageFilter]",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    }
+                ]
+            }
+        }
+    }
+}

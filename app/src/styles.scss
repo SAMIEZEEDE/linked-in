@@ -1,0 +1,48 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+
+$backgroundGray:rgb(243 242 239);
+$navbackground:rgb(255 255 255);
+*{
+    margin: 0;
+}
+body{
+   
+    background-color: $backgroundGray;
+}
+bh-toolbar{ 
+    width: 100%;
+}
+bh.LeftProfileComponent, bh.searchcomponent, bh.postComponent{
+    width: 100%;
+}
+.mat-card-content {
+    font-size: 12px;
+}
+.pointer{
+    cursor: pointer;
+}
+
+.mat-form-field-infix {
+    border-top: none;
+    border:1px;
+   //  background-color: #eef3f8;
+}
+.mat-form-field-appearance-outline .mat-form-field-infix {
+     padding: 3px;
+    // background-color: #eef3f8;
+}
+.mat-form-field-appearance-outline .mat-form-field-wrapper {
+     margin:0;
+    padding: 0;
+}
+.backg{
+background-image: url('https://static-exp1.licdn.com/sc/h/55k1z8997gh8dwtihm11aajyq' );
+ background-repeat: no-repeat;
+ background-size: fill;
+img{
+width:100%;
+}
+}

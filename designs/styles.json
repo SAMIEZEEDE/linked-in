@@ -1,0 +1,13 @@
+{
+    "classes": [
+        "LeftProfileComponent",
+        "searchcomponent",
+        "postComponent",
+        "mat-card-content",
+        "pointer",
+        "mat-form-field-infix",
+        "mat-form-field-appearance-outline",
+        "mat-form-field-wrapper",
+        "backg"
+    ]
+}
