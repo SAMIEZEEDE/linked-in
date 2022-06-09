@@ -1,12 +1,12 @@
-<div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" fxFill>
+<div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
   <div fxLayout="row wrap" style="background:white; height:56px;margin-bottom:25px;" fxLayoutAlign="center center" [fxShow]="true">
     <bh-ToolBar></bh-ToolBar>
   </div>
   <div fxLayout="row wrap" fxLayoutAlign="center center" [fxShow]="true">
     <div fxLayout="column wrap" fxFlex="80" fxLayoutAlign="start stretch" [fxShow]="true">
-      <div fxLayout="row " fxFlex="10px;" fxLayoutGap="2em" fxLayoutAlign="space-between start" [fxShow]="true" fxLayout.xs="column">
-        <div fxLayout="column " fxFlex="20" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true">
-          <div fxLayout="row " style="margin-bottom:25px;" fxLayoutAlign="center center" [fxShow]="true">
+      <div fxLayout="row wrap" style="width:100%;" fxLayoutGap="2em" fxLayoutAlign="space-between start" [fxShow]="true" fxLayout.xs="column" fxlayout.sm="column" fxLayout.md="column">
+        <div fxLayout="column wrap" fxFlex="20" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true">
+          <div fxLayout="row wrap" style="margin-bottom:25px;" fxLayoutAlign="center center" [fxShow]="true">
             <bh-LeftProfileComponent></bh-LeftProfileComponent>
           </div>
           <div fxLayout="row wrap" style="margin-bottom:25px;" fxLayoutAlign="center center" [fxShow]="true">
@@ -16,8 +16,8 @@
             </mat-panel-description>
           </div>
         </div>
-        <div fxLayout="column " fxFlex="50" fxLayoutAlign="start stretch" [fxShow]="true">
-          <div fxLayout="row " style="margin-bottom:25px;" fxLayoutAlign="center center" [fxShow]="true">
+        <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="start stretch" [fxShow]="true">
+          <div fxLayout="row wrap" style="margin-bottom:25px;" fxLayoutAlign="center center" [fxShow]="true">
             <bh-searchComponent style="width:100%;"></bh-searchComponent>
           </div>
           <div fxLayout="row wrap" fxLayoutAlign="end center" [fxShow]="true">
@@ -41,15 +41,15 @@
               </mat-expansion-panel>
             </mat-accordion>
           </div>
-          <div fxLayout="row " class="postComponent" fxLayoutAlign="center center" [fxShow]="true">
+          <div fxLayout="row wrap" class="postComponent" fxLayoutAlign="center center" [fxShow]="true">
             <bh-postComponent></bh-postComponent>
           </div>
         </div>
-        <div fxLayout="column " fxFlex="20" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true">
-          <div fxLayout="row " style="margin-bottom:25px;" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="column wrap" fxFlex="20" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true">
+          <div fxLayout="row wrap" style="margin-bottom:25px;" fxLayoutAlign="start stretch" [fxShow]="true">
             <bh-feedCompnent></bh-feedCompnent>
           </div>
-          <div fxLayout="row " style="margin-bottom:25px;" fxLayoutAlign="start stretch" [fxShow]="true">
+          <div fxLayout="row wrap" style="margin-bottom:25px;" fxLayoutAlign="start stretch" [fxShow]="true">
             <bh-whosHiringComponent style="width:100%;"></bh-whosHiringComponent>
           </div>
           <div fxLayout="row " fxFlex="20" fxLayoutAlign="start stretch" [fxShow]="true"></div>

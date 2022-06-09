@@ -13,7 +13,7 @@
         </div>
       </div>
       <div fxLayout="column wrap" fxFlex="60" fxLayoutAlign="start stretch" [fxShow]="true">
-        <div fxLayout="row wrap" style="height:52px;" fxFlex="80px;" fxLayoutGap="10px;" fxLayoutAlign="center center" [fxShow]="true">
+        <div fxLayout="row wrap" style="height:52px;" fxFlex="80px;" fxLayoutGap="10px;" fxLayoutAlign="center center" [fxShow]="true" fxLayoutAlign.xl="space-between end">
           <div fxLayout="column wrap" style="height:52px;cursor:pointer;" fxFlex="80px;" fxLayoutAlign="center center" [fxShow]="true">
             <mat-icon>home</mat-icon>
             <div>
@@ -49,7 +49,7 @@
               Work</div>
           </div>
           <div fxLayout="column wrap" style="height:52px;cursor:pointer;" fxFlex="80px;" fxLayoutAlign="center center" [fxShow]="true">
-            <div style="font-size: 11px;">
+            <div fxShow.md="false" fxShow.xl="false" style="font-size: 11px;">
               <a href="#">Try Premium for free</a>
             </div>
           </div>

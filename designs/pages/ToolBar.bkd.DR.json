@@ -787,6 +787,12 @@
                                 "_value": "true",
                                 "_type": "kv",
                                 "_attrDef": "p"
+                            },
+                            {
+                                "_key": "fxLayoutAlign.xl",
+                                "_value": "space-between end",
+                                "_type": "kv",
+                                "_attrDef": "c"
                             }
                         ],
                         "aa60d0c7-5cbe-4403-52fd-27fe5040a572": {
@@ -3263,6 +3269,18 @@
                                         "_type": "kv",
                                         "_attrDef": "p",
                                         "_visibility": false
+                                    },
+                                    {
+                                        "_key": "fxShow.md",
+                                        "_value": "false",
+                                        "_type": "kv",
+                                        "_attrDef": "c"
+                                    },
+                                    {
+                                        "_key": "fxShow.xl",
+                                        "_value": "false",
+                                        "_type": "kv",
+                                        "_attrDef": "c"
                                     }
                                 ],
                                 "794d53ff-9a52-7f21-ae5e-5be6d36f3ba7": {
