@@ -14,39 +14,15 @@
       </div>
       <div fxLayout="column wrap" fxFlex="60" fxLayoutAlign="start stretch" [fxShow]="true">
         <div fxLayout="row wrap" style="height:52px;" fxFlex="80px;" fxLayoutGap="10px;" fxLayoutAlign="center center" [fxShow]="true" fxLayoutAlign.xl="space-between end">
-          <div fxLayout="column wrap" style="height:52px;cursor:pointer;" fxFlex="80px;" fxLayoutAlign="center center" [fxShow]="true">
-            <mat-icon>home</mat-icon>
+          <div fxLayout="column wrap" style="height: 52px;cursor:pointer;" fxFlex="80px;" fxLayoutAlign="center center" [fxShow]="true" *ngFor="let menu of page.menuList">
+            <mat-icon>{{menu.icon}}</mat-icon>
             <div>
-              Home</div>
-          </div>
-          <div fxLayout="column wrap" style="height:52px;cursor:pointer;" fxFlex="80px;" fxLayoutAlign="center center" [fxShow]="true">
-            <mat-icon>group</mat-icon>
-            <div>
-              Network</div>
-          </div>
-          <div fxLayout="column wrap" style="height:52px; cursor:pointer;" fxFlex="80px;" fxLayoutAlign="center center" [fxShow]="true">
-            <mat-icon>business_center</mat-icon>
-            <div>
-              Jobs</div>
-          </div>
-          <div fxLayout="column wrap" style="height:52px;cursor:pointer;" fxFlex="80px;" fxLayoutAlign="center center" [fxShow]="true">
-            <mat-icon>sms</mat-icon>
-            <div>
-              Message</div>
-          </div>
-          <div fxLayout="column wrap" style="height: 52px;cursor:pointer;" fxFlex="80px;" fxLayoutAlign="center center" [fxShow]="true">
-            <mat-icon>notifications</mat-icon>
-            <div>
-              Notifications</div>
+              {{menu.name}}
+            </div>
           </div>
           <div fxLayout="column wrap" style="height:52px;cursor:pointer;" fxFlex="80px;" fxLayoutAlign="center center" [fxShow]="true"><img imgSrc="/Web/images/picture.jpg" style="border-radius:50%;height:24px;width:24px;">
             <div>
               Me</div>
-          </div>
-          <div fxLayout="column wrap" style="height:52px;cursor:pointer;" fxFlex="80px;" fxLayoutAlign="center center" [fxShow]="true">
-            <mat-icon>apps</mat-icon>
-            <div>
-              Work</div>
           </div>
           <div fxLayout="column wrap" style="height:52px;cursor:pointer;" fxFlex="80px;" fxLayoutAlign="center center" [fxShow]="true">
             <div fxShow.md="false" fxShow.xl="false" style="font-size: 11px;">

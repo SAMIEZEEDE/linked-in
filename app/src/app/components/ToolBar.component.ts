@@ -66,6 +66,19 @@ export class ToolBarComponent {
 
   sd_YksquegHrQmU9D8W(bh) {
     try {
+      this.page.menuList = [
+        { icon: 'home', name: 'Home', url: '', colour: 'red' },
+        { icon: 'group', name: 'Network', url: '', colour: 'green' },
+        { icon: 'business_center', name: 'Jobs', url: '', colour: 'red' },
+        { icon: 'sms', name: 'Message', url: '', colour: 'blue' },
+        {
+          icon: 'notifications',
+          name: 'Notifications',
+          url: '',
+          colour: 'red',
+        },
+        { icon: 'apps', name: 'Work', url: '', colour: 'red' },
+      ];
       //appendnew_next_sd_YksquegHrQmU9D8W
       return bh;
     } catch (e) {

@@ -73,7 +73,7 @@
                 },
                 {
                     "_key": "style",
-                    "_value": "height: 53px; ",
+                    "_value": "height: 53px; border-radius: 4px;",
                     "_type": "kv",
                     "_attrDef": "p"
                 },
@@ -138,7 +138,7 @@
                 },
                 {
                     "_key": "style",
-                    "_value": "width: fit-content; align-content:center;",
+                    "_value": "width: fit-content; align-content:center;width: 89%;",
                     "_type": "kv",
                     "_attrDef": "p"
                 },
@@ -155,63 +155,6 @@
                     "_attrDef": "p"
                 }
             ],
-            "f60bc89b-f5fa-7c35-d288-2280f487042c": {
-                "paletteKey": "ng-card-image",
-                "parentEditorKey": "82eb51df-f563-4eda-09b6-7d2e896e07d1",
-                "isAdvancedChildComponent": true,
-                "isCommented": "true",
-                "commentid": "1654684262610",
-                "designerReference": [
-                    {
-                        "_key": "style",
-                        "_value": " ",
-                        "_type": "kv",
-                        "_attrDef": "p"
-                    },
-                    {
-                        "_key": "class",
-                        "_value": "",
-                        "_type": "dav",
-                        "_attrDef": "p"
-                    },
-                    {
-                        "_key": "alt",
-                        "_value": "",
-                        "_type": "kv",
-                        "_attrDef": "p"
-                    },
-                    {
-                        "_key": "imgSrc",
-                        "_value": "",
-                        "_type": "kv",
-                        "_attrDef": "p"
-                    },
-                    {
-                        "_key": "[src]",
-                        "_value": "",
-                        "_type": "kv",
-                        "_attrDef": "p"
-                    },
-                    {
-                        "_key": "imgSecure",
-                        "_value": "",
-                        "_type": "a",
-                        "_attrDef": "p"
-                    },
-                    {
-                        "_key": "[collectionName]",
-                        "_value": "",
-                        "_type": "kv",
-                        "_attrDef": "p"
-                    },
-                    {
-                        "_key": "[imageFilter]",
-                        "_value": "",
-                        "_type": "kv",
-                        "_attrDef": "p"
-                    }
-                ]
-            },
             "4ece731e-d9dc-71de-17c4-52e0627f74e4": {
                 "paletteKey": "ng-card-content",
                 "parentEditorKey": "82eb51df-f563-4eda-09b6-7d2e896e07d1",
@@ -1064,7 +1007,6 @@
                         "paletteKey": "html-editor",
                         "parentEditorKey": "8afde748-9da1-9b17-fad1-f349f844a12b",
                         "isAdvancedChildComponent": true,
-                        "isCommented": "false",
                         "commentid": null,
                         "designerReference": [
                             {

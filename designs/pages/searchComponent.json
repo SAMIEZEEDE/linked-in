@@ -40,11 +40,40 @@
         "inputs": 1,
         "outputs": 1,
         "operation": "set",
-        "globalVariables": [],
+        "globalVariables": [
+            {
+                "textIp": "navIcons",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
+            }
+        ],
         "functionName": "sd_VJ61LgejdW37ulAN",
         "category": "Function",
-        "x": 180,
-        "y": 30,
+        "x": 205,
+        "y": 20,
+        "wires": [
+            [
+                "sd_2dvI73BoGtqa6lII"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_2dvI73BoGtqa6lII",
+        "type": "Script",
+        "z": "sd_XB9DufiTLjOFLu3l",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.navIcons=[\n    {\n        icon:\"image\",\n        name:\"Photo\",\n        color:\"#378fe9\"\n    },\n    {\n        icon:\"slideshow\",\n        name:\"Video\",\n        color:\"#69a14d\"\n    },\n    {\n        icon:\"event\",\n        name:\"Event\",\n        color:\"#c37d16\"\n    },\n    {\n        icon:\"description\",\n        name:\"Write article\",\n        color:\"#e16745\"\n    }\n]",
+        "functionName": "sd_2dvI73BoGtqa6lII",
+        "category": "Function",
+        "x": 340,
+        "y": 40,
         "wires": [
             []
         ],

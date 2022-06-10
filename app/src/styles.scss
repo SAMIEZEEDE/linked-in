@@ -15,7 +15,7 @@ body{
 bh-toolbar{ 
     width: 100%;
 }
-bh.LeftProfileComponent, bh.searchcomponent, bh.postComponent{
+bh.LeftProfileComponent, bh.searchcomponent,bh.discovermore, bh.postComponent{
     width: 100%;
 }
 .mat-card-content {
@@ -41,7 +41,8 @@ bh.LeftProfileComponent, bh.searchcomponent, bh.postComponent{
 .backg{
 background-image: url('https://static-exp1.licdn.com/sc/h/55k1z8997gh8dwtihm11aajyq' );
  background-repeat: no-repeat;
- background-size: fill;
+ background-size: cover;
+
 img{
 width:100%;
 }

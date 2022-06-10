@@ -17,6 +17,9 @@
         "viewType": "common",
         "nodeType": "start",
         "name": "",
+        "inputVariables": [],
+        "localVariables": [],
+        "outputVariables": [],
         "functionName": "sd_U1v7BaBwNa691UbG",
         "category": "Lifecycle Events",
         "x": 30,
@@ -40,7 +43,15 @@
         "inputs": 1,
         "outputs": 1,
         "operation": "set",
-        "globalVariables": [],
+        "globalVariables": [
+            {
+                "textIp": "menuList",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[     {         \"icon\" : \"home\",         \"name\" : \"Home\",         \"url\" : \"\",         \"colour\" : \"red\"     },     {         \"icon\" : \"group\",         \"name\" : \"Network\",         \"url\" : \"\",         \"colour\" : \"green\"     },     {         \"icon\" : \"business_center\",         \"name\" :\"Jobs\",         \"url\" : \"\",         \"colour\" : \"red\"     },     {         \"icon\" : \"sms\",         \"name\" : \"Message\",         \"url\" : \"\",         \"colour\" : \"blue\"     },     {         \"icon\" : \"notifications\",         \"name\" : \"Notifications\",         \"url\" : \"\",         \"colour\" : \"red\"     },     {         \"icon\" : \"apps\",         \"name\" : \"Work\",         \"url\" : \"\",         \"colour\" : \"red\"     }     ]"
+                }
+            }
+        ],
         "functionName": "sd_YksquegHrQmU9D8W",
         "category": "Function",
         "x": 180,

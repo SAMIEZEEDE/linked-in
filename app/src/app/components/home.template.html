@@ -4,48 +4,24 @@
   </div>
   <div fxLayout="row wrap" fxLayoutAlign="center center" [fxShow]="true">
     <div fxLayout="column wrap" fxFlex="80" fxLayoutAlign="start stretch" [fxShow]="true">
-      <div fxLayout="row wrap" style="width:100%;" fxLayoutGap="2em" fxLayoutAlign="space-between start" [fxShow]="true" fxLayout.xs="column" fxlayout.sm="column" fxLayout.md="column">
-        <div fxLayout="column wrap" fxFlex="20" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true">
+      <div fxLayout="row wrap" style="width:100%;" fxLayoutGap="1=em" fxLayoutAlign="space-between start" [fxShow]="true" fxLayout.xs="column" fxlayout.sm="column" fxLayout.md="column">
+        <div fxLayout="column wrap" fxFlex="22" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true">
           <div fxLayout="row wrap" style="margin-bottom:25px;" fxLayoutAlign="center center" [fxShow]="true">
-            <bh-LeftProfileComponent></bh-LeftProfileComponent>
+            <bh-LeftProfileComponent style="width:100%;"></bh-LeftProfileComponent>
           </div>
           <div fxLayout="row wrap" style="margin-bottom:25px;" fxLayoutAlign="center center" [fxShow]="true">
             <bh-discoverMore></bh-discoverMore>
-            <mat-panel-description>
-              <hr>sort by:
-            </mat-panel-description>
           </div>
         </div>
         <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="start stretch" [fxShow]="true">
           <div fxLayout="row wrap" style="margin-bottom:25px;" fxLayoutAlign="center center" [fxShow]="true">
             <bh-searchComponent style="width:100%;"></bh-searchComponent>
           </div>
-          <div fxLayout="row wrap" fxLayoutAlign="end center" [fxShow]="true">
-            <mat-accordion>
-              <mat-expansion-panel (opened)="true" (closed)="false">
-                <mat-expansion-panel-header>
-
-                  <mat-panel-title>
-
-                  </mat-panel-title>
-                  <mat-panel-description>
-                    sort by:
-                  </mat-panel-description>
-                </mat-expansion-panel-header>
-                <p>
-                  Top
-                </p>
-                <p>
-                  Recent
-                </p>
-              </mat-expansion-panel>
-            </mat-accordion>
-          </div>
           <div fxLayout="row wrap" class="postComponent" fxLayoutAlign="center center" [fxShow]="true">
             <bh-postComponent></bh-postComponent>
           </div>
         </div>
-        <div fxLayout="column wrap" fxFlex="20" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="column wrap" fxFlex="25" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true">
           <div fxLayout="row wrap" style="margin-bottom:25px;" fxLayoutAlign="start stretch" [fxShow]="true">
             <bh-feedCompnent></bh-feedCompnent>
           </div>

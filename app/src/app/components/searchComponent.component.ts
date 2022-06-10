@@ -64,10 +64,44 @@ export class searchComponentComponent {
 
   sd_VJ61LgejdW37ulAN(bh) {
     try {
+      this.page.navIcons = [];
+      bh = this.sd_2dvI73BoGtqa6lII(bh);
       //appendnew_next_sd_VJ61LgejdW37ulAN
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_VJ61LgejdW37ulAN');
+    }
+  }
+
+  sd_2dvI73BoGtqa6lII(bh) {
+    try {
+      const page = this.page;
+      page.navIcons = [
+        {
+          icon: 'image',
+          name: 'Photo',
+          color: '#378fe9',
+        },
+        {
+          icon: 'slideshow',
+          name: 'Video',
+          color: '#69a14d',
+        },
+        {
+          icon: 'event',
+          name: 'Event',
+          color: '#c37d16',
+        },
+        {
+          icon: 'description',
+          name: 'Write article',
+          color: '#e16745',
+        },
+      ];
+      //appendnew_next_sd_2dvI73BoGtqa6lII
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_2dvI73BoGtqa6lII');
     }
   }
 

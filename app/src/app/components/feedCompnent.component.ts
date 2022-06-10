@@ -64,10 +64,44 @@ export class feedCompnentComponent {
 
   sd_sZyoxAgAtRlIPg6f(bh) {
     try {
+      this.page.feedPost = [];
+      bh = this.sd_imm5bF82XJuPxZKM(bh);
       //appendnew_next_sd_sZyoxAgAtRlIPg6f
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_sZyoxAgAtRlIPg6f');
+    }
+  }
+
+  sd_imm5bF82XJuPxZKM(bh) {
+    try {
+      const page = this.page;
+      page.feedPost = [
+        {
+          photo: '/Web/images/bandi.jpg',
+          name: 'Lokhesh Wadhwa',
+          post: 'hiring for data scientist and data analyst Expert',
+        },
+        {
+          photo: '/Web/images/dinesh.jpg',
+          name: 'Dinesh Govender',
+          post: 'CEO, Discovery Vitality Talks about #wellness, #behaviourchange, and #behaviouraleconomicsTalks about hashtag wellness, hashtag behaviourchange, and hashtag behaviouraleconomicsDiscovery Limited Harvard Business School City of Johannesburg, Gauteng, South Africa  Contact info',
+        },
+        {
+          photo: '/Web/images/cake.jpg',
+          name: 'Crummey Cake',
+          post: 'Making Crummey Letters a piece of cake Financial Services 514 followers',
+        },
+        {
+          photo: '/Web/images/bandi.jpg',
+          name: 'Lokhesh Wadhwa',
+          post: 'hiring for data scientist and data analyst Expert',
+        },
+      ];
+      //appendnew_next_sd_imm5bF82XJuPxZKM
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_imm5bF82XJuPxZKM');
     }
   }
 

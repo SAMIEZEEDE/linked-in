@@ -2,6 +2,7 @@
     "classes": [
         "LeftProfileComponent",
         "searchcomponent",
+        "discovermore",
         "postComponent",
         "mat-card-content",
         "pointer",

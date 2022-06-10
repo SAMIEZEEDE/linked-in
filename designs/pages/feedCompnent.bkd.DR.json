@@ -163,7 +163,7 @@
                         },
                         {
                             "_key": "style",
-                            "_value": "",
+                            "_value": "margin-bottom:1em;",
                             "_type": "kv",
                             "_attrDef": "p"
                         },
@@ -208,6 +208,12 @@
                             "_value": "true",
                             "_type": "kv",
                             "_attrDef": "p"
+                        },
+                        {
+                            "_key": "*ngFor",
+                            "_value": "let feed of page.feedPost",
+                            "_type": "kv",
+                            "_attrDef": "c"
                         }
                     ],
                     "fd424d39-6485-fbe7-7391-7344385b9de6": {
@@ -297,7 +303,7 @@
                                 },
                                 {
                                     "_key": "imgSrc",
-                                    "_value": "/Web/images/bandi.jpg",
+                                    "_value": "{{feed.photo}}",
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 },
@@ -546,7 +552,7 @@
                                     },
                                     {
                                         "_key": "html",
-                                        "_value": "<h3>Lokhesh Wadhwa</h3>\r\n<p>hiring for data scientist and data analyst Expert</p>",
+                                        "_value": "<h3>{{feed.name}}</h3>\r\n<p>{{feed.post}}</p>",
                                         "_type": "a",
                                         "_attrDef": "p"
                                     }
