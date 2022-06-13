@@ -519,6 +519,7 @@
                                     {
                                         "_key": "class",
                                         "_value": [
+                                            "feed-hover",
                                             "pointer"
                                         ],
                                         "_type": "dav",

@@ -4,7 +4,7 @@
 
     <mat-card-content>
       <div fxLayout="column wrap" style="margin-bottom:1em;" fxLayoutAlign="center center" [fxShow]="true" *ngFor="let feed of page.feedPost">
-        <div fxLayout="row " fxLayoutGap="5px" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="{{feed.photo}}" style="width: 48px;     height: 48px; border-radius:50%;">
+        <div fxLayout="row " fxLayoutGap="5px" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="{{feed.photo}}" class="feedImage">
           <div>
             <h3>{{feed.name}}</h3>
             <p>{{feed.post}}</p>

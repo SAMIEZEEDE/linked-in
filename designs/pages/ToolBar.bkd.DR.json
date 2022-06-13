@@ -1136,7 +1136,9 @@
                                 },
                                 {
                                     "_key": "class",
-                                    "_value": "",
+                                    "_value": [
+                                        "boderLeft"
+                                    ],
                                     "_type": "dav",
                                     "_attrDef": "p"
                                 },
@@ -1535,7 +1537,9 @@
                                     },
                                     {
                                         "_key": "class",
-                                        "_value": "",
+                                        "_value": [
+                                            "navAnchor"
+                                        ],
                                         "_type": "dav",
                                         "_attrDef": "p"
                                     },

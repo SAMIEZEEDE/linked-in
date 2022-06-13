@@ -1,0 +1,84 @@
+[
+    {
+        "id": "sd_AIu8NgqDD8eMCSHx",
+        "type": "tab",
+        "createdDate": "2022-06-10T06:25:28.350Z",
+        "label": "footerMenu",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "footerMenuComponent"
+    },
+    {
+        "id": "sd_PQimRXYWZ1PGOsMU",
+        "type": "OnInit",
+        "z": "sd_AIu8NgqDD8eMCSHx",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_PQimRXYWZ1PGOsMU",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_K0tzR0fKukjfqZxv"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "footerMenuComponent"
+    },
+    {
+        "id": "sd_K0tzR0fKukjfqZxv",
+        "type": "PageVariables",
+        "z": "sd_AIu8NgqDD8eMCSHx",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [
+            {
+                "textIp": "footers",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
+            }
+        ],
+        "functionName": "sd_K0tzR0fKukjfqZxv",
+        "category": "Function",
+        "x": 180,
+        "y": 30,
+        "wires": [
+            [
+                "sd_iTidI9zCJE2NT0ri"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_iTidI9zCJE2NT0ri",
+        "type": "Script",
+        "z": "sd_AIu8NgqDD8eMCSHx",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.footers=['About','Accecebility','Help Center','Privetly & terms','Ad Choices','Advertising','Bussiness Services','Get The LinkedIn app','More'\n\n]",
+        "functionName": "sd_iTidI9zCJE2NT0ri",
+        "category": "Function",
+        "x": 320,
+        "y": 40,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    }
+]

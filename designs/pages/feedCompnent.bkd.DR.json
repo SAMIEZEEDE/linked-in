@@ -291,13 +291,15 @@
                                 },
                                 {
                                     "_key": "style",
-                                    "_value": "width: 48px;     height: 48px; border-radius:50%;",
+                                    "_value": "",
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 },
                                 {
                                     "_key": "class",
-                                    "_value": "",
+                                    "_value": [
+                                        "feedImage"
+                                    ],
                                     "_type": "dav",
                                     "_attrDef": "p"
                                 },

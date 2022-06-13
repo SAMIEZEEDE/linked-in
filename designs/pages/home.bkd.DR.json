@@ -423,13 +423,15 @@
                                 },
                                 {
                                     "_key": "style",
-                                    "_value": "margin-bottom:25px;",
+                                    "_value": "",
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 },
                                 {
                                     "_key": "class",
-                                    "_value": "",
+                                    "_value": [
+                                        "margin25"
+                                    ],
                                     "_type": "dav",
                                     "_attrDef": "p"
                                 },
@@ -511,13 +513,15 @@
                                 },
                                 {
                                     "_key": "style",
-                                    "_value": "margin-bottom:25px;",
+                                    "_value": "",
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 },
                                 {
                                     "_key": "class",
-                                    "_value": "",
+                                    "_value": [
+                                        "margin25"
+                                    ],
                                     "_type": "dav",
                                     "_attrDef": "p"
                                 },
@@ -661,13 +665,15 @@
                                 },
                                 {
                                     "_key": "style",
-                                    "_value": "margin-bottom:25px;",
+                                    "_value": "",
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 },
                                 {
                                     "_key": "class",
-                                    "_value": [],
+                                    "_value": [
+                                        "margin25"
+                                    ],
                                     "_type": "dav",
                                     "_attrDef": "p"
                                 },
@@ -756,6 +762,7 @@
                                 {
                                     "_key": "class",
                                     "_value": [
+                                        "margin25",
                                         "postComponent"
                                     ],
                                     "_type": "dav",
@@ -901,13 +908,15 @@
                                 },
                                 {
                                     "_key": "style",
-                                    "_value": "margin-bottom:25px;",
+                                    "_value": "",
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 },
                                 {
                                     "_key": "class",
-                                    "_value": "",
+                                    "_value": [
+                                        "margin25"
+                                    ],
                                     "_type": "dav",
                                     "_attrDef": "p"
                                 },
@@ -989,13 +998,15 @@
                                 },
                                 {
                                     "_key": "style",
-                                    "_value": "margin-bottom:25px;",
+                                    "_value": "",
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 },
                                 {
                                     "_key": "class",
-                                    "_value": "",
+                                    "_value": [
+                                        "margin25"
+                                    ],
                                     "_type": "dav",
                                     "_attrDef": "p"
                                 },
@@ -1050,13 +1061,15 @@
                                     },
                                     {
                                         "_key": "style",
-                                        "_value": "width:100%;",
+                                        "_value": "",
                                         "_type": "kv",
                                         "_attrDef": "p"
                                     },
                                     {
                                         "_key": "class",
-                                        "_value": "",
+                                        "_value": [
+                                            "width100"
+                                        ],
                                         "_type": "dav",
                                         "_attrDef": "p"
                                     }
@@ -1083,7 +1096,9 @@
                                 },
                                 {
                                     "_key": "class",
-                                    "_value": "",
+                                    "_value": [
+                                        "margin25"
+                                    ],
                                     "_type": "dav",
                                     "_attrDef": "p"
                                 },
@@ -1101,7 +1116,7 @@
                                 },
                                 {
                                     "_key": "wrap",
-                                    "_value": "",
+                                    "_value": "wrap",
                                     "_type": "a",
                                     "_attrDef": "p"
                                 },
@@ -1123,7 +1138,33 @@
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 }
-                            ]
+                            ],
+                            "4cd33122-37aa-9c19-f224-21c11b03f010": {
+                                "paletteKey": "NEUTRINOS_VIEW_footerMenu",
+                                "parentEditorKey": "c85743db-d6be-47b4-f204-b1d7eaef1156",
+                                "commentid": null,
+                                "designerReference": [
+                                    {
+                                        "_key": "componentLabel",
+                                        "_value": "footerMenu",
+                                        "_type": "kv",
+                                        "_attrDef": "p",
+                                        "_useAsLabel": true
+                                    },
+                                    {
+                                        "_key": "style",
+                                        "_value": "",
+                                        "_type": "kv",
+                                        "_attrDef": "p"
+                                    },
+                                    {
+                                        "_key": "class",
+                                        "_value": "",
+                                        "_type": "dav",
+                                        "_attrDef": "p"
+                                    }
+                                ]
+                            }
                         }
                     }
                 }

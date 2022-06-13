@@ -350,20 +350,22 @@
                         },
                         {
                             "_key": "class",
-                            "_value": "",
+                            "_value": [
+                                "anchorNoUnderline"
+                            ],
                             "_type": "dav",
                             "_attrDef": "p"
                         },
                         {
                             "_key": "htmlElement",
-                            "_value": "div",
+                            "_value": "h3",
                             "_type": "dav",
                             "_attrDef": "p",
                             "_useAsLabel": true
                         },
                         {
                             "_key": "tagType",
-                            "_value": "",
+                            "_value": "h3",
                             "_type": "a",
                             "_attrDef": "p",
                             "_visibility": false
@@ -565,7 +567,9 @@
                     },
                     {
                         "_key": "class",
-                        "_value": "",
+                        "_value": [
+                            "feed-hover"
+                        ],
                         "_type": "dav",
                         "_attrDef": "p"
                     },
@@ -590,7 +594,9 @@
                         },
                         {
                             "_key": "class",
-                            "_value": "",
+                            "_value": [
+                                "achorOnHover"
+                            ],
                             "_type": "dav",
                             "_attrDef": "p"
                         },
@@ -805,7 +811,9 @@
                     },
                     {
                         "_key": "class",
-                        "_value": "",
+                        "_value": [
+                            "feed-hover"
+                        ],
                         "_type": "dav",
                         "_attrDef": "p"
                     },
@@ -830,7 +838,9 @@
                         },
                         {
                             "_key": "class",
-                            "_value": "",
+                            "_value": [
+                                "anchorNoUnderline"
+                            ],
                             "_type": "dav",
                             "_attrDef": "p"
                         },
@@ -1045,7 +1055,9 @@
                     },
                     {
                         "_key": "class",
-                        "_value": "",
+                        "_value": [
+                            "feed-hover"
+                        ],
                         "_type": "dav",
                         "_attrDef": "p"
                     },

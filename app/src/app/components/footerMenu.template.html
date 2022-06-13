@@ -1,0 +1,7 @@
+<div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+  <div fxLayout="row wrap" fxLayoutAlign="space-between space-around" [fxShow]="true">
+    <div displayFlex="flex" *ngFor="let footer of page.footers" class="achorOnHover anchorNoUnderline">
+      <a href="#">{{footer}}</a>
+    </div>
+  </div>
+</div>

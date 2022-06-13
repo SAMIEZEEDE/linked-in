@@ -191,7 +191,10 @@
                             },
                             {
                                 "_key": "class",
-                                "_value": "",
+                                "_value": [
+                                    "blueAncor",
+                                    "achorOnHover"
+                                ],
                                 "_type": "dav",
                                 "_attrDef": "p"
                             },
@@ -398,13 +401,16 @@
                         "designerReference": [
                             {
                                 "_key": "style",
-                                "_value": "cursor:pointer;",
+                                "_value": "",
                                 "_type": "kv",
                                 "_attrDef": "p"
                             },
                             {
                                 "_key": "class",
-                                "_value": "",
+                                "_value": [
+                                    "colorblue",
+                                    "pointer"
+                                ],
                                 "_type": "dav",
                                 "_attrDef": "p"
                             },

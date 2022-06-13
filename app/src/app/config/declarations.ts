@@ -15,6 +15,8 @@ window['neutrinos'] = {
 };
 
 //CORE_REFERENCE_IMPORTS
+//CORE_REFERENCE_IMPORT-footerMenuComponent
+import { footerMenuComponent } from '../components/footerMenu.component';
 //CORE_REFERENCE_IMPORT-discoverMoreComponent
 import { discoverMoreComponent } from '../components/discoverMore.component';
 //CORE_REFERENCE_IMPORT-whosHiringComponentComponent
@@ -63,6 +65,8 @@ export const appDeclarations = [
   PageNotFoundComponent,
   ArtImgSrcDirective,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY
+  //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-footerMenuComponent
+  footerMenuComponent,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-discoverMoreComponent
   discoverMoreComponent,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-whosHiringComponentComponent

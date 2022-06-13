@@ -6,29 +6,31 @@
     <div fxLayout="column wrap" fxFlex="80" fxLayoutAlign="start stretch" [fxShow]="true">
       <div fxLayout="row wrap" style="width:100%;" fxLayoutGap="1=em" fxLayoutAlign="space-between start" [fxShow]="true" fxLayout.xs="column" fxlayout.sm="column" fxLayout.md="column">
         <div fxLayout="column wrap" fxFlex="22" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true">
-          <div fxLayout="row wrap" style="margin-bottom:25px;" fxLayoutAlign="center center" [fxShow]="true">
+          <div fxLayout="row wrap" class="margin25" fxLayoutAlign="center center" [fxShow]="true">
             <bh-LeftProfileComponent style="width:100%;"></bh-LeftProfileComponent>
           </div>
-          <div fxLayout="row wrap" style="margin-bottom:25px;" fxLayoutAlign="center center" [fxShow]="true">
+          <div fxLayout="row wrap" class="margin25" fxLayoutAlign="center center" [fxShow]="true">
             <bh-discoverMore></bh-discoverMore>
           </div>
         </div>
         <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="start stretch" [fxShow]="true">
-          <div fxLayout="row wrap" style="margin-bottom:25px;" fxLayoutAlign="center center" [fxShow]="true">
+          <div fxLayout="row wrap" class="margin25" fxLayoutAlign="center center" [fxShow]="true">
             <bh-searchComponent style="width:100%;"></bh-searchComponent>
           </div>
-          <div fxLayout="row wrap" class="postComponent" fxLayoutAlign="center center" [fxShow]="true">
+          <div fxLayout="row wrap" class="margin25 postComponent" fxLayoutAlign="center center" [fxShow]="true">
             <bh-postComponent></bh-postComponent>
           </div>
         </div>
         <div fxLayout="column wrap" fxFlex="25" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true">
-          <div fxLayout="row wrap" style="margin-bottom:25px;" fxLayoutAlign="start stretch" [fxShow]="true">
+          <div fxLayout="row wrap" class="margin25" fxLayoutAlign="start stretch" [fxShow]="true">
             <bh-feedCompnent></bh-feedCompnent>
           </div>
-          <div fxLayout="row wrap" style="margin-bottom:25px;" fxLayoutAlign="start stretch" [fxShow]="true">
-            <bh-whosHiringComponent style="width:100%;"></bh-whosHiringComponent>
+          <div fxLayout="row wrap" class="margin25" fxLayoutAlign="start stretch" [fxShow]="true">
+            <bh-whosHiringComponent class="width100"></bh-whosHiringComponent>
           </div>
-          <div fxLayout="row " fxFlex="20" fxLayoutAlign="start stretch" [fxShow]="true"></div>
+          <div fxLayout="row wrap" class="margin25" fxFlex="20" fxLayoutAlign="start stretch" [fxShow]="true">
+            <bh-footerMenu></bh-footerMenu>
+          </div>
         </div>
       </div>
     </div>

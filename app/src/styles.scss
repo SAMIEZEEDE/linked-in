@@ -5,6 +5,8 @@
 
 $backgroundGray:rgb(243 242 239);
 $navbackground:rgb(255 255 255);
+$blue:#0a66c2;
+$mastard:#915907;
 *{
     margin: 0;
 }
@@ -18,11 +20,62 @@ bh-toolbar{
 bh.LeftProfileComponent, bh.searchcomponent,bh.discovermore, bh.postComponent{
     width: 100%;
 }
+.boderLeft{
+ border-left: 1px solid;
+}
+.width100{
+    width: 100%;
+}
 .mat-card-content {
     font-size: 12px;
 }
+.navAnchor a{
+    color:$mastard;
+    text-decoration: none;
+}
+.width68{
+  width: 68%;
+  
+}
 .pointer{
     cursor: pointer;
+}
+.margin25{
+    margin-bottom:25px;
+}
+.blueAncor{
+  a{
+        color: $blue; 
+        text-decoration: none;
+    }
+}
+.colorblue{
+    color:$blue;
+}
+.achorOnHover a:hover{
+   color:$blue;
+   text-decoration:underline ;
+}
+.feed-hover:hover {
+  background-color: $backgroundGray;
+  padding: 0;
+  margin: 0;
+}
+.listStyles{
+ list-style: none;
+}
+.anchorNoUnderline{
+    a{
+        text-decoration-style:none ;
+        text-decoration: none;
+        color: black;
+    }
+
+}
+.feedImage{
+    width: 48px;
+    height: 48px;
+    border-radius:50%;
 }
 
 .mat-form-field-infix {
