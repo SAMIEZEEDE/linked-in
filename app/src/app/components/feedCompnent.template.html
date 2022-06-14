@@ -1,16 +1,16 @@
-<div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-  <mat-card style="width: fit-content;">
-    <mat-card-title>Add to your feed</mat-card-title>
+<div fxLayout="column wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
+    <mat-card>
+        <mat-card-title>Add to your feed</mat-card-title>
 
-    <mat-card-content>
-      <div fxLayout="column wrap" style="margin-bottom:1em;" fxLayoutAlign="center center" [fxShow]="true" *ngFor="let feed of page.feedPost">
-        <div fxLayout="row " fxLayoutGap="5px" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="{{feed.photo}}" class="feedImage">
-          <div>
-            <h3>{{feed.name}}</h3>
-            <p>{{feed.post}}</p>
-          </div>
-        </div><button mat-button style="height:2rem;border-radius: 1.6rem;border: 1px solid;width:95px;">+follow</button>
-      </div>
-    </mat-card-content>
-  </mat-card>
+        <mat-card-content>
+            <div fxLayout="column wrap" style="margin-bottom:1em;" fxLayoutAlign="center center" [fxShow]="true" *ngFor="let feed of page.feedPost">
+                <div fxLayout="row " fxLayoutGap="5px" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="{{feed.photo}}" class="feedImage">
+                    <div>
+                        <h3>{{feed.name}}</h3>
+                        <p>{{feed.post}}</p>
+                    </div>
+                </div><button mat-button style="height:2rem;border-radius: 1.6rem;border: 1px solid;width:95px;">+follow</button>
+            </div>
+        </mat-card-content>
+    </mat-card>
 </div>

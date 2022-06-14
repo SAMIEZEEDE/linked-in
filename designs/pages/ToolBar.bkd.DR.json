@@ -158,7 +158,7 @@
                     },
                     {
                         "_key": "wrap",
-                        "_value": "wrap",
+                        "_value": "",
                         "_type": "a",
                         "_attrDef": "p"
                     },
@@ -280,7 +280,7 @@
                             },
                             {
                                 "_key": "wrap",
-                                "_value": "wrap",
+                                "_value": "",
                                 "_type": "a",
                                 "_attrDef": "p"
                             },
@@ -728,6 +728,75 @@
                             "_attrDef": "p"
                         }
                     ],
+                    "2c745d69-b1e6-c656-ea9b-9fc433a6602f": {
+                        "paletteKey": "NG-icon",
+                        "parentEditorKey": "1d975217-0846-c5d3-ea89-39e466171c95",
+                        "commentid": null,
+                        "designerReference": [
+                            {
+                                "_key": "style",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "class",
+                                "_value": "",
+                                "_type": "dav",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "IconName",
+                                "_value": "menu",
+                                "_type": "a",
+                                "_attrDef": "p",
+                                "_useAsLabel": true
+                            },
+                            {
+                                "_key": "[inline]",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "color",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "fxHide",
+                                "_value": "true",
+                                "_type": "kv",
+                                "_attrDef": "c"
+                            },
+                            {
+                                "_key": "fxHide.md",
+                                "_value": "false",
+                                "_type": "kv",
+                                "_attrDef": "c"
+                            },
+                            {
+                                "_key": "(click)",
+                                "_value": "hideShow()",
+                                "_type": "kv",
+                                "_attrDef": "c",
+                                "objValue": {
+                                    "nodeID": "sd_CFtWbasdBkOOUvaN",
+                                    "functionName": "hideShow",
+                                    "activeTree": "pages",
+                                    "z": "sd_ASHJTltBZnwcEypu",
+                                    "input": []
+                                }
+                            },
+                            {
+                                "_key": "fxHide.lt-md",
+                                "_value": "false",
+                                "_type": "kv",
+                                "_attrDef": "c"
+                            }
+                        ]
+                    },
                     "aab0b3c6-d4a8-e57e-a682-e4e384caf4d0": {
                         "paletteKey": "FlexLayoutRow",
                         "parentEditorKey": "1d975217-0846-c5d3-ea89-39e466171c95",
@@ -760,19 +829,19 @@
                             },
                             {
                                 "_key": "fxLayoutGap",
-                                "_value": "10px;",
+                                "_value": "10px",
                                 "_type": "kv",
                                 "_attrDef": "p"
                             },
                             {
                                 "_key": "wrap",
-                                "_value": "wrap",
+                                "_value": "",
                                 "_type": "a",
                                 "_attrDef": "p"
                             },
                             {
                                 "_key": "layoutAlign",
-                                "_value": "center",
+                                "_value": "space-around",
                                 "_type": "a",
                                 "_attrDef": "p"
                             },
@@ -787,12 +856,6 @@
                                 "_value": "true",
                                 "_type": "kv",
                                 "_attrDef": "p"
-                            },
-                            {
-                                "_key": "fxLayoutAlign.xl",
-                                "_value": "space-between end",
-                                "_type": "kv",
-                                "_attrDef": "c"
                             }
                         ],
                         "b797c8b9-35d6-9750-c198-bd44f544edd7": {
@@ -1091,7 +1154,6 @@
                                     "paletteKey": "html-editor",
                                     "parentEditorKey": "0e5f60cb-cc37-a807-c836-e858a5cf78dd",
                                     "isAdvancedChildComponent": true,
-                                    "isCommented": "false",
                                     "commentid": null,
                                     "designerReference": [
                                         {
@@ -1710,18 +1772,6 @@
                                         "_type": "kv",
                                         "_attrDef": "p",
                                         "_visibility": false
-                                    },
-                                    {
-                                        "_key": "fxShow.md",
-                                        "_value": "false",
-                                        "_type": "kv",
-                                        "_attrDef": "c"
-                                    },
-                                    {
-                                        "_key": "fxShow.xl",
-                                        "_value": "false",
-                                        "_type": "kv",
-                                        "_attrDef": "c"
                                     }
                                 ],
                                 "794d53ff-9a52-7f21-ae5e-5be6d36f3ba7": {

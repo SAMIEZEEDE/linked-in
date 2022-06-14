@@ -46,6 +46,101 @@
         "x": 180,
         "y": 30,
         "wires": [
+            [
+                "sd_PYjwzUgMxabIZQ5s"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_PYjwzUgMxabIZQ5s",
+        "type": "Script",
+        "z": "sd_rDF7xK4mbXh1krk9",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "addingNavIcons",
+        "script": "page.menuList=[\n    {\n        icon: \"home\",\n        name : \"Home\",\n        colour : \"grey\"\n    },\n    {\n        icon : \"group\",\n        name: \"Network\",\n        colour : \"grey\"\n    },\n    {\n        icon : \"business_center\",\n        name:\"Jobs\",\n        colour :  \"grey\"\n    },\n    {\n        icon: \"sms\",\n        name : \"Message\",\n        colour :  \"grey\"\n    },\n    {\n        icon : \"notifications\",\n        name : \"Notifications\",\n        colour : \"grey\"\n    },\n    {\n        icon : \"apps\",\n        name : \"Work\",\n        colour : \"grey\"\n    }    \n]",
+        "functionName": "addingNavIcons",
+        "category": "Function",
+        "x": 345,
+        "y": 40,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_9bia41FU2XKkD8mV",
+        "type": "PageStart",
+        "z": "sd_rDF7xK4mbXh1krk9",
+        "viewType": "pages",
+        "nodeType": "start",
+        "name": "toggles SideNav",
+        "outputs": 1,
+        "inputVariables": [],
+        "localVariables": [],
+        "flow_type": "sync",
+        "functionName": "togglesSideNav",
+        "category": "General",
+        "x": 60,
+        "y": 220,
+        "wires": [
+            [
+                "sd_P6D49VBWBRH2jGQ8"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "homeComponent"
+    },
+    {
+        "id": "sd_P6D49VBWBRH2jGQ8",
+        "type": "ViewPicker",
+        "z": "sd_rDF7xK4mbXh1krk9",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "outputs": 1,
+        "childViewVariables": [
+            {
+                "key": {
+                    "type": "str",
+                    "value": "sidenav"
+                },
+                "defaultValue": "",
+                "isViewChildren": false
+            }
+        ],
+        "functionName": "sd_P6D49VBWBRH2jGQ8",
+        "category": "Function",
+        "x": 200,
+        "y": 220,
+        "wires": [
+            [
+                "sd_ecKlQVNA7aUlbwva"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_ecKlQVNA7aUlbwva",
+        "type": "Script",
+        "z": "sd_rDF7xK4mbXh1krk9",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "bh.pageViews.sidenav.toggle();",
+        "functionName": "sd_ecKlQVNA7aUlbwva",
+        "category": "Function",
+        "x": 360,
+        "y": 220,
+        "wires": [
             []
         ],
         "__n_excludedFromValidation__": {},

@@ -74,7 +74,7 @@
                 },
                 {
                     "_key": "style",
-                    "_value": "width: fit-content;",
+                    "_value": "",
                     "_type": "kv",
                     "_attrDef": "p"
                 },
@@ -771,7 +771,7 @@
                 "designerReference": [
                     {
                         "_key": "style",
-                        "_value": "",
+                        "_value": "width:100%",
                         "_type": "kv",
                         "_attrDef": "p"
                     },

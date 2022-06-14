@@ -12,7 +12,7 @@
             },
             {
                 "_key": "style",
-                "_value": "",
+                "_value": "width:100%;",
                 "_type": "kv",
                 "_attrDef": "p"
             },
@@ -74,7 +74,7 @@
                 },
                 {
                     "_key": "style",
-                    "_value": "width: 246px;",
+                    "_value": "",
                     "_type": "kv",
                     "_attrDef": "p"
                 },

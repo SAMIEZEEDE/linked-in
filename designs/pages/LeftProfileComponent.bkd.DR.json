@@ -138,7 +138,7 @@
                 },
                 {
                     "_key": "style",
-                    "_value": "width: fit-content; align-content:center;width: 89%;",
+                    "_value": "",
                     "_type": "kv",
                     "_attrDef": "p"
                 },

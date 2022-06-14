@@ -8,6 +8,8 @@ import {
   Input,
   Output,
   EventEmitter,
+  ViewChild,
+  ViewChildren,
 } from '@angular/core'; //_splitter_
 import { SDBaseService } from 'app/n-services/SDBaseService'; //_splitter_
 import { SDPageCommonService } from 'app/n-services/sd-page-common.service'; //_splitter_
@@ -62,6 +64,20 @@ export class ToolBarComponent {
     }
   }
 
+  hideShow(...others) {
+    try {
+      var bh: any = this.__page_injector__
+        .get(SDPageCommonService)
+        .constructFlowObject(this);
+      bh.input = {};
+      bh.local = {};
+      bh = this.sd_n3VssQpbceVMn1LO(bh);
+      //appendnew_next_hideShow
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_CFtWbasdBkOOUvaN');
+    }
+  }
+
   //appendnew_flow_ToolBarComponent_start
 
   sd_YksquegHrQmU9D8W(bh) {
@@ -83,6 +99,16 @@ export class ToolBarComponent {
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_YksquegHrQmU9D8W');
+    }
+  }
+
+  sd_n3VssQpbceVMn1LO(bh) {
+    try {
+      bh.pageOutput.listenToIconClick.emit();
+      //appendnew_next_sd_n3VssQpbceVMn1LO
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_n3VssQpbceVMn1LO');
     }
   }
 

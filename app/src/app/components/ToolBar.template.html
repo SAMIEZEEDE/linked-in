@@ -1,8 +1,8 @@
 <div fxLayout="row wrap" style="background:white; height:56px;" fxLayoutAlign="center center" [fxShow]="true">
   <div fxLayout="column wrap" fxFlex="80" fxLayoutAlign="start stretch" [fxShow]="true">
-    <div fxLayout="row wrap" style="height: 54px;" fxLayoutAlign="space-between center" [fxShow]="true">
+    <div fxLayout="row " style="height: 54px;" fxLayoutAlign="space-between center" [fxShow]="true">
       <div fxLayout="column wrap" fxFlex="30" fxLayoutAlign="start stretch" [fxShow]="true">
-        <div fxLayout="row wrap" style="height: 52px;" fxLayoutAlign="start center" [fxShow]="true">
+        <div fxLayout="row " style="height: 52px;" fxLayoutAlign="start center" [fxShow]="true">
           <div fxLayout="column wrap" fxFlex="20" fxLayoutAlign="center start" [fxShow]="true"><img imgSrc="/Web/images/logo3.png" style="height: 42px;     width: 42px;"></div>
           <div fxLayout="column " fxFlex="80" fxLayoutAlign="center start" [fxShow]="true">
             <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
@@ -13,7 +13,8 @@
         </div>
       </div>
       <div fxLayout="column wrap" fxFlex="60" fxLayoutAlign="start stretch" [fxShow]="true">
-        <div fxLayout="row wrap" style="height:52px;" fxFlex="80px;" fxLayoutGap="10px;" fxLayoutAlign="center center" [fxShow]="true" fxLayoutAlign.xl="space-between end">
+        <mat-icon fxHide="true" fxHide.md="false" (click)="hideShow()" fxHide.lt-md="false">menu</mat-icon>
+        <div fxLayout="row " style="height:52px;" fxFlex="80px;" fxLayoutGap="10px" fxLayoutAlign="space-around center" [fxShow]="true">
           <div fxLayout="column wrap" style="height: 52px;cursor:pointer;" fxFlex="80px;" fxLayoutAlign="center center" [fxShow]="true" *ngFor="let menu of page.menuList">
             <mat-icon>{{menu.icon}}</mat-icon>
             <div>
@@ -25,7 +26,7 @@
               Me</div>
           </div>
           <div fxLayout="column wrap" style="height:52px;cursor:pointer;" fxFlex="80px;" fxLayoutAlign="center center" [fxShow]="true">
-            <div fxShow.md="false" fxShow.xl="false" style="font-size: 11px;" class="navAnchor">
+            <div style="font-size: 11px;" class="navAnchor">
               <a href="#">Try Premium for free</a>
             </div>
           </div>

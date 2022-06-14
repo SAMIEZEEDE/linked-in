@@ -1,9 +1,15 @@
 {
     "classes": [
+        "sidenav",
         "LeftProfileComponent",
         "searchcomponent",
         "discovermore",
         "postComponent",
+        "home",
+        "searchComponent",
+        "whosHiringComponent",
+        "feedCompnent",
+        "fullWidth",
         "boderLeft",
         "width100",
         "mat-card-content",

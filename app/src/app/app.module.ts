@@ -3,6 +3,8 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { appDeclarations, appBootstrap, appProviders } from './config/declarations';
 import { appImportModules } from './config/import-modules';
 
+
+
 @NgModule({
   declarations: [...appDeclarations],
   imports: [...appImportModules],
@@ -10,4 +12,6 @@ import { appImportModules } from './config/import-modules';
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [...appBootstrap]
 })
-export class AppModule { }
+export class AppModule { 
+
+}

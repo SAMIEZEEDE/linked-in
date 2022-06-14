@@ -62,5 +62,61 @@
         "__n_excludedFromValidation__": {},
         "generateNext": false,
         "generated": true
+    },
+    {
+        "id": "sd_CFtWbasdBkOOUvaN",
+        "type": "PageStart",
+        "z": "sd_ASHJTltBZnwcEypu",
+        "viewType": "pages",
+        "nodeType": "start",
+        "name": "hideShow",
+        "outputs": 1,
+        "inputVariables": [],
+        "localVariables": [],
+        "flow_type": "sync",
+        "functionName": "hideShow",
+        "category": "General",
+        "x": 65,
+        "y": 200,
+        "wires": [
+            [
+                "sd_n3VssQpbceVMn1LO"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "ToolBarComponent"
+    },
+    {
+        "id": "sd_n3VssQpbceVMn1LO",
+        "type": "Output",
+        "z": "sd_ASHJTltBZnwcEypu",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "eventName": "bh.pageOutput.listenToIconClick",
+        "data": "bh",
+        "functionName": "sd_n3VssQpbceVMn1LO",
+        "category": "Function",
+        "x": 185,
+        "y": 200,
+        "wires": [
+            []
+        ],
+        "__ssdTypeInputs__": {
+            "eventName": {
+                "type": "bh.pageOutput",
+                "value": "listenToIconClick",
+                "constant": false
+            },
+            "data": {
+                "type": "bh",
+                "value": "",
+                "constant": false
+            }
+        },
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
     }
 ]
