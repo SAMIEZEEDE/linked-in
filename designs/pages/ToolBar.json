@@ -19,11 +19,19 @@
         "name": "",
         "inputVariables": [],
         "localVariables": [],
-        "outputVariables": [],
+        "outputVariables": [
+            {
+                "key": "listenToIconClick",
+                "defaultValue": {
+                    "type": "any",
+                    "value": null
+                }
+            }
+        ],
         "functionName": "sd_U1v7BaBwNa691UbG",
         "category": "Lifecycle Events",
-        "x": 30,
-        "y": 30,
+        "x": 25,
+        "y": 40,
         "wires": [
             [
                 "sd_YksquegHrQmU9D8W"

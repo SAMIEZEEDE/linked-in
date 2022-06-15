@@ -4,17 +4,17 @@
       <div fxLayout="column wrap" fxFlex="30" fxLayoutAlign="start stretch" [fxShow]="true">
         <div fxLayout="row " style="height: 52px;" fxLayoutAlign="start center" [fxShow]="true">
           <div fxLayout="column wrap" fxFlex="20" fxLayoutAlign="center start" [fxShow]="true"><img imgSrc="/Web/images/logo3.png" style="height: 42px;     width: 42px;"></div>
-          <div fxLayout="column " fxFlex="80" fxLayoutAlign="center start" [fxShow]="true">
+          <div fxLayout="column " fxFlex="80" fxLayoutAlign="center start" [fxShow]="true" fx.Show.lt-md="false">
             <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
-              <input matInput placeholder="Input" [required]="false">
+              <input matInput placeholder="Search" [required]="false">
               <mat-icon matPrefix>search</mat-icon>
             </mat-form-field>
           </div>
         </div>
       </div>
-      <div fxLayout="column wrap" fxFlex="60" fxLayoutAlign="start stretch" [fxShow]="true">
+      <div fxLayout="column wrap" fxFlex="60" fxLayoutAlign="space-between end" [fxShow]="true">
         <mat-icon fxHide="true" fxHide.md="false" (click)="hideShow()" fxHide.lt-md="false">menu</mat-icon>
-        <div fxLayout="row " style="height:52px;" fxFlex="80px;" fxLayoutGap="10px" fxLayoutAlign="space-around center" [fxShow]="true">
+        <div fxLayout="row " style="height:52px;" fxFlex="80px;" fxLayoutGap="10px" fxLayoutAlign="space-around center" [fxShow]="true" fxHide.md="true" fxHide.lt-md="true">
           <div fxLayout="column wrap" style="height: 52px;cursor:pointer;" fxFlex="80px;" fxLayoutAlign="center center" [fxShow]="true" *ngFor="let menu of page.menuList">
             <mat-icon>{{menu.icon}}</mat-icon>
             <div>

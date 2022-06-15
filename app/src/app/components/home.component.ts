@@ -82,6 +82,7 @@ export class homeComponent {
 
   sd_LGWkxUGsQICU9NKG(bh) {
     try {
+      this.page.menu = [];
       bh = this.addingNavIcons(bh);
       //appendnew_next_sd_LGWkxUGsQICU9NKG
       return bh;
@@ -93,7 +94,7 @@ export class homeComponent {
   addingNavIcons(bh) {
     try {
       const page = this.page;
-      page.menuList = [
+      page.menu = [
         {
           icon: 'home',
           name: 'Home',

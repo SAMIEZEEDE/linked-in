@@ -40,7 +40,15 @@
         "inputs": 1,
         "outputs": 1,
         "operation": "set",
-        "globalVariables": [],
+        "globalVariables": [
+            {
+                "textIp": "menu",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
+            }
+        ],
         "functionName": "sd_LGWkxUGsQICU9NKG",
         "category": "Function",
         "x": 180,
@@ -61,7 +69,7 @@
         "viewType": "common",
         "nodeType": "flow",
         "name": "addingNavIcons",
-        "script": "page.menuList=[\n    {\n        icon: \"home\",\n        name : \"Home\",\n        colour : \"grey\"\n    },\n    {\n        icon : \"group\",\n        name: \"Network\",\n        colour : \"grey\"\n    },\n    {\n        icon : \"business_center\",\n        name:\"Jobs\",\n        colour :  \"grey\"\n    },\n    {\n        icon: \"sms\",\n        name : \"Message\",\n        colour :  \"grey\"\n    },\n    {\n        icon : \"notifications\",\n        name : \"Notifications\",\n        colour : \"grey\"\n    },\n    {\n        icon : \"apps\",\n        name : \"Work\",\n        colour : \"grey\"\n    }    \n]",
+        "script": "page.menu=[\n    {\n        icon: \"home\",\n        name : \"Home\",\n        colour : \"grey\"\n    },\n    {\n        icon : \"group\",\n        name: \"Network\",\n        colour : \"grey\"\n    },\n    {\n        icon : \"business_center\",\n        name:\"Jobs\",\n        colour :  \"grey\"\n    },\n    {\n        icon: \"sms\",\n        name : \"Message\",\n        colour :  \"grey\"\n    },\n    {\n        icon : \"notifications\",\n        name : \"Notifications\",\n        colour : \"grey\"\n    },\n    {\n        icon : \"apps\",\n        name : \"Work\",\n        colour : \"grey\"\n    }    \n]",
         "functionName": "addingNavIcons",
         "category": "Function",
         "x": 345,

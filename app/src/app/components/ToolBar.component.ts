@@ -25,6 +25,8 @@ import { FormControl, Validators, FormBuilder } from '@angular/forms'; //_splitt
   ],
 })
 export class ToolBarComponent {
+  @Output('listenToIconClick')
+  public listenToIconClick: any = new EventEmitter<any>();
   page: any = { dep: {} };
   constructor(
     private __page_injector__: Injector,
