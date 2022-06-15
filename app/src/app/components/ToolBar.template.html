@@ -13,10 +13,10 @@
         </div>
       </div>
       <div fxLayout="column wrap" fxFlex="60" fxLayoutAlign="space-between end" [fxShow]="true">
-        <mat-icon fxHide="true" fxHide.md="false" (click)="hideShow()" fxHide.lt-md="false">menu</mat-icon>
+        <mat-icon style="color:grey;" fxHide="true" fxHide.md="false" (click)="hideShow()" fxHide.lt-md="false">menu</mat-icon>
         <div fxLayout="row " style="height:52px;" fxFlex="80px;" fxLayoutGap="10px" fxLayoutAlign="space-around center" [fxShow]="true" fxHide.md="true" fxHide.lt-md="true">
           <div fxLayout="column wrap" style="height: 52px;cursor:pointer;" fxFlex="80px;" fxLayoutAlign="center center" [fxShow]="true" *ngFor="let menu of page.menuList">
-            <mat-icon>{{menu.icon}}</mat-icon>
+            <mat-icon style="color:{{menu.colour}};">{{menu.icon}}</mat-icon>
             <div>
               {{menu.name}}
             </div>

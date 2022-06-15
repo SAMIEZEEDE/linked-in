@@ -6,7 +6,7 @@
     <mat-sidenav #sidenav style="width: 150px" [mode]="&apos;over&apos;" (opened)="true" [position]="&apos;start&apos;">
       <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="start space-around" [fxShow]="true" *ngFor="let icons of page.menu">
         <div fxLayout="column wrap" fxLayoutAlign="start baseline" [fxShow]="true">
-          <mat-icon>{{icons.icon}}</mat-icon>
+          <mat-icon style="color:{{icons.colour}}; margin-bottom:1em;">{{icons.icon}}</mat-icon>
         </div>
         <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"><label>
             {{icons.name}}</label></div>

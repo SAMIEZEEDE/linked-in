@@ -461,7 +461,7 @@
                             "designerReference": [
                                 {
                                     "_key": "style",
-                                    "_value": "",
+                                    "_value": "color:{{icons.colour}}; margin-bottom:1em;",
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 },

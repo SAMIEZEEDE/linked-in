@@ -845,11 +845,12 @@
                     "2c745d69-b1e6-c656-ea9b-9fc433a6602f": {
                         "paletteKey": "NG-icon",
                         "parentEditorKey": "1d975217-0846-c5d3-ea89-39e466171c95",
+                        "isCommented": "false",
                         "commentid": null,
                         "designerReference": [
                             {
                                 "_key": "style",
-                                "_value": "",
+                                "_value": "color:grey;",
                                 "_type": "kv",
                                 "_attrDef": "p"
                             },
@@ -1058,7 +1059,7 @@
                                 "designerReference": [
                                     {
                                         "_key": "style",
-                                        "_value": "",
+                                        "_value": "color:{{menu.colour}};",
                                         "_type": "kv",
                                         "_attrDef": "p"
                                     },
